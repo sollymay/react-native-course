@@ -9,7 +9,7 @@ const Card = (props) => {
 
 const styles = {
 	containterStyle: {
-		boderWidth: 1,
+		borderWidth: 1,
 		borderRadius: 2,
 		borderColor: '#ddd',
 		borderBottomWidth: 0,
