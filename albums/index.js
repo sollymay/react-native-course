@@ -10,7 +10,8 @@ import AlbumList from './src/components/AlbumList';
 
 // Create a component
 const App = () => (
-		<View>
+	// setting flex 1 to root view element (expands component to entire width of device...)
+		<View style={{ flex: 1 }}>
 			<Header headerText={'Albums'} />
 			<AlbumList />
         </View>

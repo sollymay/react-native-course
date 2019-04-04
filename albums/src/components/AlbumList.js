@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+// scrollview allows me to make the AlbumList scrollable
+import { ScrollView } from 'react-native';
 // axios is a third party library to do http/s requests
 import axios from 'axios';
 import AlbumDetail from './AlbumDetail';
@@ -25,9 +26,9 @@ class AlbumList extends Component {
 	render() {
 		console.log(this.state);
 		return (
-			<View>
+			<ScrollView>
 				{ this.renderAlbums() }
-			</View>
+			</ScrollView>
 		);
 	}
 }

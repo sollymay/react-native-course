@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "jshint": "^2.10.2",
     "react": "16.8.3",
     "react-native": "0.59.1"
   },
