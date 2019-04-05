@@ -1,13 +1,13 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
-
-const Button = () => {
+//The onPress call comes from AlbumDetail were we declare the function we want to run...
+const Button = ({ onPress, children }) => {
     const { buttonStyle, textStyle } = styles;
     return (
         //TouchableOpacity is used to give visual feedback to the user on button/text press
-        <TouchableOpacity style={buttonStyle}>
+        <TouchableOpacity onPress={onPress} style={buttonStyle}>
             <Text style={textStyle}>
-                Click me!!!
+                {children}
             </Text>
         </TouchableOpacity>
     );
