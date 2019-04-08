@@ -33,4 +33,4 @@ const styles = {
         marginRight: 5
     }
 };
-export default Button;
+export { Button };
